@@ -2,6 +2,7 @@
 Proyecto laboratorio de pruebas usando cucumber con sprint boot y selenium
 Dependencias usadas:
 * cucumber-junit
+* cucumber-java
 * cucumber sprint
 * selenium-java
 * lombok
