@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.co.poc.test.spring'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework', name: 'spring-context', version: '4.2.0.RELEASE'
+    testCompile group: 'org.springframework', name: 'spring-test', version: '5.2.6.RELEASE'
+    compile group: 'io.cucumber', name: 'cucumber-spring', version: '6.0.0-RC2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-6'
+
+}
